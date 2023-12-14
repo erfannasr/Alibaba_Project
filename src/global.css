@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container_hover:hover button{
+  background-color: #F2F9FF;
+  color: #0077DB;
+  transition: all 0.2s;
+}
+.container_hover:focus button{
+  background-color: #F2F9FF;
+}
+.container_help{
+  transition: all 0.3s ease-in;
+}
+.container_help:hover span{
+   color: #0077DB;
+}
+
+
+@font-face {
+  font-family: Dirooz;
+  src: url('Dirooz.eot');
+  src: url('Dirooz.eot?#iefix') format('embedded-opentype'),
+       url('Dirooz.woff') format('woff'),
+       url('Dirooz.ttf') format('truetype');
+  font-weight: normal;
+}
+::-webkit-scrollbar-thumb {
+  background: #BEC6CC; 
+  width: 1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+:root {
+  
+} 
+
+
+body {
+  margin: auto;
+  font-family: Dirooz;
+  opacity: 1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
